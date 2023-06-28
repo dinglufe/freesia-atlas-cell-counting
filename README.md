@@ -2,7 +2,9 @@
 
 Freesia is a software specifically developed for the manual registration of histological slice images to the Allen Mouse Common Coordinate Framework ([CCF v3](https://scalablebrainatlas.incf.org/mouse/ABA_v3)). It can take cell identification results obtained from software such as [Imaris](https://imaris.oxinst.com/) or [ilastik](https://www.ilastik.org/), and generate a cell counting list for brain regions (refer to [PI C et al. Mol Brain. 2022](https://doi.org/10.1186/s13041-022-00985-w)).
 
-![freesia](doc/images/freesia.png)
+![freesia](./doc/images/freesia-3.png) | ![freesia](./doc/images/freesia-4.png)
+:---:|:---:
+| *Importing Images, Atlas, and Cell Coordinates in Freesia* | *Exporting Cell Counting Results in Freesia* |
 
 ## Basic usage
 
@@ -10,7 +12,7 @@ The image registration process in freesia consists of three parts: 3D rigid tran
 
 The control for 3D/2D rigid transform is located in the right-top/middle panel, which includes options for 3D/2D rotation, translation, and scaling. On the other hand, 2D deformation is performed using a key point-based method, which requires manually labeled point pairs.
 
-For more detailed information about the usage, please refer to [this document](doc/usage.md).
+**For more detailed information about the usage, please refer to [this document](doc/usage.md).**
 
 ## Demo data
 

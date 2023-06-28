@@ -1,4 +1,6 @@
-> This document provides an overview of the freesia data model and basic user operations.
+This document provides an overview of the freesia data model and basic user operations.
+
+**Beyond these basic operations, there is also a step-by-step tutorial on how to use ilastik, fiji and freesia to perform cell counting. This tutorial is available in [here](ilastik.md).**
 
 The freesia data model consists of three levels: the whole dataset, image groups, and individual images. All images within the same group undergo the same transformation process. An image group can contain one or more images, depending on the imaging strategy employed. For traditional thin slice 2D imaging, there is typically only one image per group. For 3D imaging, there are multiple images per group. 
 
